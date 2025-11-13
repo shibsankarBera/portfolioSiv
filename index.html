@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/input.css" />
+    <link rel="stylesheet" href="./src/media.css" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Momo+Trust+Display&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+      integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <title>Shibsankar'sPortfolio</title>
+  </head>
+  <body>
+    <!-- ~~~~~~heder section~~~ -->
+    <header class="header">
+      <nav class="nav">
+        <!-- ---Logo--- -->
+        <div class="logo">
+          <img src="./dist/images/my Logo.jpg" alt="" />
+        </div>
+        <!-- ---ToGGGle button--- -->
+        <div class="Dark-light-mode">
+          <button id="day"><i class="ri-sun-line"></i></button>
+
+          <button><i class="ri-moon-clear-line"></i></button>
+        </div>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="ri-menu-fill" id="bars"></i>
+          <i class="ri-close-line" id="crss"></i>
+        </label>
+
+        <div class="nav-links">
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Skills</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ~~~~~~Home section~~~ -->
+    <section class="Home">
+      <div class="container">
+        <div class="imgeBG">
+          <img
+            src="./dist/images/mybannerPic.jpeg"
+            alt=""
+            style="padding: 16px; width: 100%"
+          />
+        </div>
+        <div class="content">
+          <div class="content-box">
+            <h3>welcome😊</h3>
+            <h1 class="">I'm Shibsankar Bera</h1>
+            <h4 class="">A Fullstack Developer</h4>
+
+            <!-- svgbtn -->
+
+            <button class="btn">
+              <svg
+                width="180px"
+                height="60px"
+                viewBox="0 0 180 60"
+                class="border"
+              >
+                <polyline
+                  points="179,1 179,59 1,59 1,1 179,1"
+                  class="bg-line"
+                />
+                <polyline
+                  points="179,1 179,59 1,59 1,1 179,1"
+                  class="hl-line"
+                />
+              </svg>
+              <a
+                href="./dist/images/resume/ShibsankarBeraResume.pdf"
+                download=""
+                >Download Resume</a
+              >
+            </button>
+
+            <div class="socialMediaicon">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-threads"></i>
+              <i class="fa-brands fa-x-twitter"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ~~~~~~About section~~~ -->
+    <section class="about">
+      <div class="container">
+        <div class="about-body">
+          <div class="About-imge">
+            <img src="./dist/images/profilePic.jpeg" alt="" />
+          </div>
+          <div class="About-content">
+            <h1>About <span class="white-span">Me</span></h1>
+            <p>
+              Hi there I'm <span>shibsankar bera</span>
+              And I love to create beautiful and efficient websites for my
+              customers. I love going through the entire process with the
+              customer from concept, to design and then development and launch
+            </p>
+            <button class="btnResume">Readmore..</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ~~~~~~skill section~~~ -->
+
+    <section id="skills">
+      <div class="container">
+        <h1>My <span class="white-span">Skills</span></h1>
+        <div class="container-skill">
+          <div class="Cr-card-container">
+            <h2>HTML</h2>
+            <div class="progress-bar">
+              <div class="html">
+                <span>78%</span>
+              </div>
+            </div>
+            <h2>css</h2>
+            <div class="progress-bar">
+              <div class="css">
+                <span>90%</span>
+              </div>
+            </div>
+            <h2>JavaScript</h2>
+            <div class="progress-bar">
+              <div class="JavaScript">
+                <span>82%</span>
+              </div>
+            </div>
+            <h2>React</h2>
+            <div class="progress-bar">
+              <div class="React">
+                <span>63%</span>
+              </div>
+            </div>
+            <h2>MongoDB</h2>
+            <div class="progress-bar">
+              <div class="MongoDB">
+                <span>75%</span>
+              </div>
+            </div>
+            <h2>Node.js</h2>
+            <div class="progress-bar">
+              <div class="Node-js">
+                <span>28%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ~~~~~~Certification section~~~ -->
+
+    <section id="certifications">
+      <h1>Certifications</h1>
+
+      <div class="cert-container">
+        <div class="cert-card">
+          <iframe
+            src="./dist/images/certificate/jascripttt.pdf"
+            frameborder="0"
+          ></iframe>
+          <h3>JavaScript Advanced Concepts</h3>
+          <p>Issued by: Udemy</p>
+          <p>Date: August 2024</p>
+          <a
+            href="./dist/images/certificate/jascripttt.pdf"
+            target="_blank"
+            class="crt-btn"
+            >View Certificate</a
+          >
+        </div>
+
+        <div class="cert-card">
+          <iframe
+            src="./dist/images/certificate/c80230d892a42131cc23633a74137b92873875e9.pdf"
+            frameborder="0"
+          ></iframe>
+          <h3>React Developer Certification</h3>
+          <p>Issued by: FreeCodeCamp</p>
+          <p>Date: October 2024</p>
+          <a
+            href="./dist/images/certificate/c80230d892a42131cc23633a74137b92873875e9.pdf"
+            target="_blank"
+            class="crt-btn"
+            >View Certificate</a
+          >
+        </div>
+        <div class="cert-card">
+          <iframe
+            src="./dist/images/certificate/FLSTK.pdf"
+            frameborder="0"
+          ></iframe>
+          <h3>Front-End Web Development</h3>
+          <p>Issued by: Coursera</p>
+          <p>Date: June 2024</p>
+          <a
+            href="./dist/images/certificate/FLSTK.pdf"
+            target="_blank"
+            class="crt-btn"
+            >View Certificate</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ~~~~~~Project section~~~ -->
+    <section class="project">
+      <div class="container">
+        <h1>My recent <span class="white-span">projects</span></h1>
+        <div class="proj1">
+          <div class="card">
+            <img
+              src="./dist/images/projects/calcImg.png"
+              alt="calculator projecct"
+            />
+            <div class="intro">
+              <h4>CGPA Calculator</h4>
+              <p>To convert CGPA to percentage, multiply your CGPA by 9.5</p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./dist/images/projects/tour.png"
+              alt="calculator projecct"
+            />
+            <div class="intro">
+              <h4>Explore world Tourist</h4>
+              <p>show upcoming tour events,ticket price ,avalabilty,booking</p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./dist/images/projects/suntrix-solar-and-renewable-energy-website-template_271099-original.jpg"
+              alt="calculator projecct"
+            />
+            <div class="intro">
+              <h4>Solar project Web</h4>
+              <p>save nature ,About green energy production & consumetion</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./dist/images/projects/food.png" alt="resturant web" />
+            <div class="intro">
+              <h4>resturent menu layouts</h4>
+              <p>build resopnsive layouts for food items reviews price</p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./dist/images/projects/d3zuxyz7uggvmjtk895p.jpg"
+              alt="price listng"
+            />
+            <div class="intro">
+              <h4>Product price card</h4>
+              <p>Design an interctive and customisable cards for products</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./dist/images/projects/plant.png" alt="nature projecct" />
+            <div class="intro">
+              <h4>Ecommerce plants</h4>
+              <p>
+                showing plants according to avalibilty ,product cart & buy
+                features
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ~~~~~~Contact section~~~ -->
+    <section class="contact">
+      <div class="container">
+        <h1>Contact <span class="white-span">Me</span></h1>
+        <div class="contact-wrapper">
+          <div class="contact-form">
+            <h3>Send Me a messasge</h3>
+            <form action="">
+              <div class="form-group">
+                <input type="text" name="name" placeholder="Your Name" />
+              </div>
+              <div class="form-group">
+                <input type="email" name="email" placeholder="Your Email" />
+              </div>
+              <div class="form-group">
+                <textarea
+                  name="Message"
+                  id=""
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <div>
+              <p><i class="ri-phone-line"></i>9547409406</p>
+              <p>
+                <i class="ri-mail-unread-line"></i>shibsankarbera1999@gmail.com
+              </p>
+              <p><i class="ri-map-pin-line"></i>Kolkata,WB-721601</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ~~~~~~Footer section~~~ -->
+    <!-- ====== Footer Section ====== -->
+    <footer>
+      <p>Let's connect — I'm always open to opportunities and collaboration.</p>
+
+      <div class="contact-buttons">
+        <!-- Call Button (directly opens phone dialer) -->
+        <a href="tel:+1234567890" class="footer-btn call-btn blink_me"
+          >📞 Call Me</a
+        >
+
+        <!-- Email Button (opens default email app) -->
+        <a href="mailto:yourname@example.com" class="footer-btn email-btn"
+          >📧 Email Me</a
+        >
+      </div>
+      <hr class="ftr-hr" />
+
+      <p class="footer-note">© 2025 Shibsankar bera | All rights reserved.</p>
+    </footer>
+  </body>
+</html>
